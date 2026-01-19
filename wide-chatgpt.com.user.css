@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           wide chatgpt.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("chatgpt.com") {
+  div[class*="--thread-content-max-width"] {
+    --thread-content-max-width: 100% !important;
+  }
+}
